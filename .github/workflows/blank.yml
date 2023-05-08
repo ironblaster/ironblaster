@@ -1,24 +1,51 @@
-name: Metrics
+# This is a basic workflow to help you get started with Actions
+
+name: Profile stats
+
+# Controls when the action will run. 
 on:
-  # Schedule daily updates
-  schedule: [{cron: "0 0 * * *"}]
-  # (optional) Run workflow manually
+  # Triggers the workflow on push or pull request events but only for the master branch
+  push:
+    branches: [ master ]
+  schedule:
+      - cron: '0 0 * * *'
   workflow_dispatch:
-  # (optional) Run workflow when pushing on master/main
-  push: {branches: ["master"]}
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  github-metrics:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - uses: lowlighter/metrics@latest
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+      - uses: lowlighter/metrics@master
         with:
-          config_output: insights
-          base: header
-          plugin_isocalendar: yes
-          plugin_languages: yes
-          plugin_stars: yes
-          config_order: base.header, isocalendar, languages, stars
-          config_timezone: Europe/Rome
           token: ${{ secrets.METRICS_TOKEN }}
+          config_timezone: Europe/Rome
+          repositories_forks: yes
+          plugin_languages: yes
+          plugin_followup: yes
+          plugin_habits: yes
+          plugin_lines: yes
+          plugin_traffic: yes
+          plugin_habits_charts: yes
+          plugin_habits_facts: yes
+          plugin_stargazers: yes
+          plugin_achievements: yes
+          plugin_achievements_threshold: B
+          plugin_achievements_secrets: yes
+          plugin_achievements_limit: 0
+          plugin_stackoverflow: yes
+          plugin_stackoverflow_user: 6296561
+          plugin_stackoverflow_sections: ''
+          plugin_stackoverflow_lines: 0
+          # Y tho?
+          plugin_stackoverflow_limit: 1
+          
+          plugin_licenses: yes
+          plugin_languages_skipped: conan-center-index, oh-my-zsh
+          plugin_isocalendar: yes
