@@ -25,4 +25,7 @@ jobs:
           plugin_achievements_threshold: X
           plugin_stackoverflow: yes
           plugin_stackoverflow_user: 11289776
+          plugin_stackoverflow_lines: 0
+          plugin_stackoverflow_lines_snippet: 0
+
 
