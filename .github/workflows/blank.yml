@@ -21,6 +21,9 @@ jobs:
           config_timezone: Europe/Rome
           plugin_isocalendar: yes
           plugin_languages: yes
+          plugin_languages_ignored: >-
+            html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell,
+            gnuplot
           plugin_stackoverflow: yes
           plugin_stackoverflow_user: 11289776
           plugin_stackoverflow_lines: 0
