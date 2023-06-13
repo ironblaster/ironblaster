@@ -36,8 +36,8 @@
                                     <rect class="day" x="45" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="60" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="75" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="90" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="105" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="90" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="105" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="120" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="135" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="150" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
@@ -69,7 +69,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            713 Commits
+                            716 Commits
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -219,14 +219,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="252.45869538136807" height="8" fill="#4F5D95"/>
-                    <rect mask="url(#languages-bar)" x="252.45869538136807" y="0" width="137.40205011737112" height="8" fill="#b07219"/>
-                    <rect mask="url(#languages-bar)" x="389.8607454987392" y="0" width="25.570196696851248" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="415.43094219559043" y="0" width="23.194324459220297" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="438.62526665481073" y="0" width="11.761565584529263" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="450.38683223934" y="0" width="6.154801146050402" height="8" fill="#00B4AB"/>
-                    <rect mask="url(#languages-bar)" x="456.54163338539036" y="0" width="2.3041738951425472" height="8" fill="#F05138"/>
-                    <rect mask="url(#languages-bar)" x="458.84580728053294" y="0" width="1.1541927194670705" height="8" fill="#c6538c"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="252.45114505621163" height="8" fill="#4F5D95"/>
+                    <rect mask="url(#languages-bar)" x="252.45114505621163" y="0" width="137.41169810914553" height="8" fill="#b07219"/>
+                    <rect mask="url(#languages-bar)" x="389.86284316535716" y="0" width="25.569431964628084" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="415.4322751299852" y="0" width="23.193630782612384" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="438.6259059125976" y="0" width="11.761213829386197" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="450.38711974198384" y="0" width="6.1546170733653405" height="8" fill="#00B4AB"/>
+                    <rect mask="url(#languages-bar)" x="456.54173681534917" y="0" width="2.3041049838218304" height="8" fill="#F05138"/>
+                    <rect mask="url(#languages-bar)" x="458.845841799171" y="0" width="1.1541582008290334" height="8" fill="#c6538c"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -660,7 +660,7 @@ Do I have the upload_cert.der file, and how can I sign the flutter app with that
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="31.25462012320328 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="31.29705681040383 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g xmlns="http://www.w3.org/2000/svg" transform="translate(5 4)" fill="none" fill-rule="evenodd">
@@ -874,7 +874,7 @@ Do I have the upload_cert.der file, and how can I sign the flutter app with that
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Inspirer
-                                    <span class="gh">ranked 3.19m out of 407m repositories</span>
+                                    <span class="gh">ranked 3.15m out of 408m repositories</span>
                                 </div>
                                 <div class="text">Maintaining or created a repository which has been forked 2 times</div>
                             </div>
@@ -967,7 +967,7 @@ Do I have the upload_cert.der file, and how can I sign the flutter app with that
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Influencer
-                                    <span class="gh">ranked 3.19m out of 117m users</span>
+                                    <span class="gh">ranked 3.20m out of 117m users</span>
                                 </div>
                                 <div class="text">Followed by 3 users</div>
                             </div>
@@ -1152,7 +1152,7 @@ Do I have the upload_cert.der file, and how can I sign the flutter app with that
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 12 Jun 2023, 02:43:14 (timezone Europe/Rome) with lowlighter/metrics@3.33.0</span>
+                <span>Last updated 13 Jun 2023, 02:42:24 (timezone Europe/Rome) with lowlighter/metrics@3.33.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
